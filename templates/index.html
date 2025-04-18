@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODBOT - AI Code Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>KODBOT</h1>
+            <p>Your AI coding assistant powered by Gemini</p>
+        </header>
+
+        <div class="chat-container">
+            <div id="chat-history" class="chat-history"></div>
+
+            <div class="input-area">
+                <div class="language-selector">
+                    <label for="language">Language:</label>
+                    <select id="language">
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                    </select>
+                </div>
+
+                <textarea id="user-input" placeholder="Describe what code you want me to generate..."></textarea>
+
+                <div class="button-group">
+                    <button id="generate-btn">Generate Code</button>
+                    <button id="clear-btn">Clear Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

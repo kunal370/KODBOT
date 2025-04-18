@@ -1,0 +1,5 @@
+KODBOT/
+├── .env
+├── app.py
+└── templates/
+    └── index.html
